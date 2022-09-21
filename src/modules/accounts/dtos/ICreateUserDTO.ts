@@ -4,4 +4,10 @@ interface ICreateUserDTO {
   password: string;
 }
 
-export {ICreateUserDTO};
+interface IResponseUserDTO {
+  id: string;
+  name: string;
+  email: string;
+}
+
+export {ICreateUserDTO, IResponseUserDTO};
